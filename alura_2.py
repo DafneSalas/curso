@@ -75,14 +75,14 @@
 # print(texto)
 
 
-#nome = input('Escreva seu nome:  ')
-# Inteiros: int(dado_para_conversao)
-# Float: float(dado_para_conversao)
-# String: str(dado_para_conversao)
-# Booleano: bool(dado_para_conversao)
-#ano_entrada = input('Escreva o ano de ingresso do(a) estudante:  ')
-# print(ano_entrada)
-# print(type(ano_entrada))
+nome = input('Escreva seu nome:  ')
+Inteiros: int(dado_para_conversao)
+Float: float(dado_para_conversao)
+String: str(dado_para_conversao)
+Booleano: bool(dado_para_conversao)
+ano_entrada = input('Escreva o ano de ingresso do(a) estudante:  ')
+print(ano_entrada)
+print(type(ano_entrada))
 
 # ano_entrada = int(input('Escreva o ano de ingresso do(a) estudante:  ')) <<<<<<<<<<<
 # print(ano_entrada)
