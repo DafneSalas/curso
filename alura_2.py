@@ -75,14 +75,37 @@
 # print(texto)
 
 
-nome = input('Escreva seu nome:  ')
-Inteiros: int(dado_para_conversao)
-Float: float(dado_para_conversao)
-String: str(dado_para_conversao)
-Booleano: bool(dado_para_conversao)
-ano_entrada = input('Escreva o ano de ingresso do(a) estudante:  ')
-print(ano_entrada)
-print(type(ano_entrada))
+# nome = input('Escreva seu nome: ')
+# print(f'bem vindo/a {nome}')
+
+
+# cadastro de cliente
+
+# nome = 'alguem'
+# idade = 23
+# sexo = 'F'
+# email = 'alguem@email.com'
+# telefone = '41999554176'
+
+# nome = input('nome: ')
+# idade = int(input('idade: '))
+# # sexo = input('sexo: ')
+# # email = input('email: ')
+# # telefone = input('telefone')
+
+# print('SALVANDO NO BANCO DE DADOS...')
+
+
+# print('nome: %s\nidade: %d' %(nome, idade))
+
+
+# Inteiros: int(dado_para_conversao)
+# Float: float(dado_para_conversao)
+# String: str(dado_para_conversao)
+# Booleano: bool(dado_para_conversao)
+# ano_entrada = input('Escreva o ano de ingresso do(a) estudante:  ')
+# print(ano_entrada)
+# print(type(ano_entrada))
 
 # ano_entrada = int(input('Escreva o ano de ingresso do(a) estudante:  ')) <<<<<<<<<<<
 # print(ano_entrada)
@@ -93,12 +116,14 @@ print(type(ano_entrada))
 # print(type(nota_entrada))
 #print(f'Ano de entrada {ano_entrada} - nota do teste de ingresso {nota_entrada}')
 
-# nome_aluno = 'Dafne Salas'
-# idade_aluno = 29
-# media_aluno = 8.53
-# print(f'O nome da aluna é {nome_aluno} e sua idade é {idade_aluno}.')
+nome_aluno = input('nome: ')
+idade_aluno = input('idade: ')
+media_aluno = input('media: ')
+
 # print('Nome do aluno: %s' %(nome_aluno))
-# print('Nome do aluno é %s, ele tem %d anos e sua média é %f.' %(nome_aluno, idade_aluno, media_aluno))
+print(f'O nome da aluna é {nome_aluno} e sua idade é {idade_aluno}.')
+print('Nome do aluno é %s, ele tem %d anos e sua média é %f.' %(nome_aluno, int(idade_aluno), float(media_aluno)))
+print('Nome do aluno é {}, ele tem {} anos e sua média é {}.'.format(nome_aluno, idade_aluno, media_aluno))
 # print('Nome do aluno é %s, ele tem %d anos e sua média é %.2f.' %(nome_aluno, idade_aluno, media_aluno))
 
 # ##Uma observação: os operadores de formatação de strings com % não funcionam diretamente com valores booleanos. 
@@ -108,4 +133,4 @@ print(type(ano_entrada))
 
 # print('Nome do aluno: {}'.format(nome_aluno))
 
-# print('Nome do aluno é {}, ele tem {} anos e sua média é {}.' .format(nome_aluno, idade_aluno, media_aluno))
+
